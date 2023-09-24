@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/FqMRdGw/Health.png",
+        "title": "Clean Water for Children",
+        "category": "Health",
+        "category_bg": "#FF5733",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Clean water is essential for a child's health and well-being. Our mission is to provide access to safe drinking water to children in underserved communities. Join us in making a difference in the lives of young ones by ensuring they have access to clean and pure water. Together, we can create a brighter future.",
+        "price": 49.99
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/7rjTDG3/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg": "#33FF57",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Quality education is the key to a brighter future. We are dedicated to providing children and youth with access to good education, empowering them to reach their full potential. Join us in our efforts to build a world where every child has the opportunity to learn, grow, and succeed.",
+        "price": 79.99
+    },
+    {
+        "id": 3,
+        "picture": "https://ibb.co/mzzGt9y",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#FF5733",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Every piece of clothing can make a difference. Our clothing drive collects gently used clothing and distributes them to individuals and families in need. Join us in providing warmth, comfort, and dignity to those less fortunate while reducing textile waste and promoting sustainable practices.",
+        "price": 19.99
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/883BGPQ/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FFC300",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Access to nutritious food is a basic human right. Our organization is committed to improving food security and providing better food options to communities in need. Join us in our mission to ensure everyone has access to healthy and affordable meals, leading to a happier and healthier society.",
+        "price": 29.99
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/883BGPQ/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FFC300",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Access to nutritious food is a basic human right. Our organization is committed to improving food security and providing better food options to communities in need. Join us in our mission to ensure everyone has access to healthy and affordable meals, leading to a happier and healthier society.",
+        "price": 29.99
+    },
+    {
+        "id": 6,
+        "picture": "https://ibb.co/mzzGt9y",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#FF5733",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Every piece of clothing can make a difference. Our clothing drive collects gently used clothing and distributes them to individuals and families in need. Join us in providing warmth, comfort, and dignity to those less fortunate while reducing textile waste and promoting sustainable practices.",
+        "price": 19.99
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/7rjTDG3/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg": "#33FF57",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Quality education is the key to a brighter future. We are dedicated to providing children and youth with access to good education, empowering them to reach their full potential. Join us in our efforts to build a world where every child has the opportunity to learn, grow, and succeed.",
+        "price": 79.99
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/FqMRdGw/Health.png",
+        "title": "Clean Water for Children",
+        "category": "Health",
+        "category_bg": "#FF5733",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Clean water is essential for a child's health and well-being. Our mission is to provide access to safe drinking water to children in underserved communities. Join us in making a difference in the lives of young ones by ensuring they have access to clean and pure water. Together, we can create a brighter future.",
+        "price": 49.99
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/FqMRdGw/Health.png",
+        "title": "Clean Water for Children",
+        "category": "Health",
+        "category_bg": "#FF5733",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Clean water is essential for a child's health and well-being. Our mission is to provide access to safe drinking water to children in underserved communities. Join us in making a difference in the lives of young ones by ensuring they have access to clean and pure water. Together, we can create a brighter future.",
+        "price": 49.99
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/7rjTDG3/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg": "#33FF57",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Quality education is the key to a brighter future. We are dedicated to providing children and youth with access to good education, empowering them to reach their full potential. Join us in our efforts to build a world where every child has the opportunity to learn, grow, and succeed.",
+        "price": 79.99
+    },
+    {
+        "id": 11,
+        "picture": "https://ibb.co/mzzGt9y",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#FF5733",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Every piece of clothing can make a difference. Our clothing drive collects gently used clothing and distributes them to individuals and families in need. Join us in providing warmth, comfort, and dignity to those less fortunate while reducing textile waste and promoting sustainable practices.",
+        "price": 19.99
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/883BGPQ/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FFC300",
+        "card_bg": "#F7F7F7",
+        "text_button_bg": "#007BFF",
+        "description": "Access to nutritious food is a basic human right. Our organization is committed to improving food security and providing better food options to communities in need. Join us in our mission to ensure everyone has access to healthy and affordable meals, leading to a happier and healthier society.",
+        "price": 29.99
+    }
+]
