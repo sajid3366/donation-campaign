@@ -12,7 +12,7 @@ const Header = () => {
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
-                            isActive ? "text-[#FF444A] underline" : isPending ? "pending" : ""
+                            isActive ? "text-[#FF444A] underline font-bold" : isPending ? "pending" : ""
                         }>
                         Home
                     </NavLink>
@@ -20,7 +20,7 @@ const Header = () => {
                 </li>
                 <li>
                     <NavLink to="/donation" className={({ isActive, isPending }) =>
-                        isActive ? "text-[#FF444A] underline" : isPending ? "pending" : ""
+                        isActive ? "text-[#FF444A] underline font-bold" : isPending ? "pending" : ""
                     }>
                         Donation
                     </NavLink>
@@ -28,7 +28,7 @@ const Header = () => {
                 </li>
                 <li>
                     <NavLink to="/statistics" className={({ isActive, isPending }) =>
-                        isActive ? "text-[#FF444A] underline" : isPending ? "pending" : ""
+                        isActive ? "text-[#FF444A] underline font-bold" : isPending ? "pending" : ""
                         }>
                         Statistics
                     </NavLink>
