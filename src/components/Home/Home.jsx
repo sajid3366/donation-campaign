@@ -4,10 +4,8 @@ import Cards from "../Cards/Cards";
 
 const Home = () => {
 
-
     const cards = useLoaderData();
-    console.log(cards);
-
+    
     return (
         <div>
             <Banner></Banner>
