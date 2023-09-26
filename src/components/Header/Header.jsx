@@ -5,7 +5,7 @@ const Header = () => {
 
         <nav className="flex justify-between items-center">
             <div>
-                <img className=" h-[70px]" src="../../../public/image/Logo.png" alt="" />
+                <img className=" h-[70px]" src="/image/Logo.png" alt="" />
             </div>
             <ul className="flex gap-x-6">
                 <li>
