@@ -1,49 +1,32 @@
 import { Chart } from "react-google-charts";
-import React, { useEffect, useState } from "react";
-
-const data =[
-    ["Task", "Hours per Day"],
-    ["Work", 11],
-    ["Watch TV", 2],
-]
-
-
+import { useEffect, useState } from "react";
 
 
 const Statistics = () => {
 
-    const [chart, setChart]= useState([]);
-    const ChartLength =parseInt(chart.length)
-    console.log(ChartLength);
-    const array =[
-        ["Task", "Hours per Day"],
-        ["Work", {ChartLength}],
-        ["Watch TV", 2],
-    ]
-    console.log(chart.length);
+    const donateItem = JSON.parse(localStorage.getItem('card'));
+    const [charts, setChart] = useState([]);
 
-    useEffect(()=>{
+    const array = [
+        ["Task", "Hours per Day"],
+        ['Total Donation', charts.length],
+        ['Donation You Made', donateItem.length]
+    ]
+
+    useEffect(() => {
         fetch('/data.json')
-        .then(res => res.json())
-        .then(data => setChart(data))
-    },[])
-    console.log(chart);
+            .then(res => res.json())
+            .then(data => setChart(data))
+    }, [])
 
     return (
-        <div className="my-12">
-            <Chart
-                chartType="PieChart"
-                // data={data}
-                array={array}
-                
-                width={"100%"}
-                height={"400px"}
-            />
+        <Chart
+            chartType="PieChart"
+            data={array}
 
-            <div>
-                <h1>My Daily Activities</h1>
-            </div>
-        </div>
+            width={"100%"}
+            height={"400px"}
+        />
     );
 };
 

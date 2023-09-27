@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import Card from '../Card/Card';
-import Statistics from '../Statistics/Statistics';
 const Cards = ({cards}) => {
     
 
@@ -12,10 +11,7 @@ const Cards = ({cards}) => {
                 )
             
             }
-            {
-                cards.map(card=><Statistics key={card.id} card={card}></Statistics>
-                )
-            }
+           
         </div>
     );
 };
