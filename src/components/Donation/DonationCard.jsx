@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 const DonationCard = ({ card }) => {
-    console.log(card);
     const { picture, text_color, title, category, category_bg, price, card_bg } = card;
     return (
         <div>

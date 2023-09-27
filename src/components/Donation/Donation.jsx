@@ -7,7 +7,6 @@ const Donation = () => {
     const [cards, setCards] = useState([]);
     const [noData, setNoData] = useState('');
     const [isShow, setIsShow]=useState(false);
-    console.log(cards);
 
     useEffect(()=>{
         const donatedItem = JSON.parse(localStorage.getItem('card'));
@@ -28,8 +27,8 @@ const Donation = () => {
                 noData?<h1>{noData}</h1>: <div>
                     <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2">
                         {
-                            isShow?cards.map(card => <DonationCard key={card.id} card={card}></DonationCard>):
-                            cards.slice(0,4).map(card => <DonationCard key={card.id} card={card}></DonationCard>)
+                            isShow?cards.map((card, idx) => <DonationCard key={idx} card={card}></DonationCard>):
+                            cards.slice(0,4).map((card,idx) => <DonationCard key={idx} card={card}></DonationCard>)
                         }
                     </div>
                     <div className="flex justify-center">

@@ -6,7 +6,6 @@ const Banner = () => {
                 backgroundImage: `url('https://i.ibb.co/2YJ9Vch/Rectangle-4281.png')`,
                 opacity:0.3,
                 
-                
             }} className="h-[80vh] w-full rounded-lg"   alt="" />
             <div className="absolute -mt-[300px] ml-[220px]">
                 <h1 className="text-5xl font-bold text-center mb-4">I Grow By Helping People In Need</h1>

@@ -13,9 +13,6 @@ const Donate = () => {
         setCard(findCards)
     },[donate,id])
 
-
-    console.log(card);
-
     return (
         <div>
             <DonatedCard card={card}></DonatedCard>

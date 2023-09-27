@@ -8,11 +8,10 @@ const Statistics = () => {
     const [charts, setChart] = useState([]);
 
     const array = [
-        ["Task", "Hours per Day"],
+        ["Donation", "Donation commit"],
         ['Total Donation', charts.length],
         ['Donation You Made', donateItem.length]
     ]
-
     useEffect(() => {
         fetch('/data.json')
             .then(res => res.json())
