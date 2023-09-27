@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
 
-        <nav className="flex justify-between items-center">
-            <div>
-                <img className=" h-[70px]" src="/image/Logo.png" alt="" />
+        <nav className=" lg:flex justify-between items-center">
+            <div className="flex justify-center">
+                <img className=" h-[70px] " src="/image/Logo.png" alt="" />
             </div>
-            <ul className="flex gap-x-6">
+            <ul className="flex justify-center  mt-8 lg:mt-0 gap-x-6">
                 <li>
                     <NavLink
                         to="/"

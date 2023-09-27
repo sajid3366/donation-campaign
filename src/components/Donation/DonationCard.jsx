@@ -10,7 +10,7 @@ const DonationCard = ({ card }) => {
 
                     <div>
                         <h1 style={{ background: category_bg, color:text_color }} className=' flex justify-center items-center rounded-lg px-4 py-2 text-sm mb-2 w-[90px]'>{category}</h1>
-                        <p className='mb-2 text-3xl font-semibold'>{title}</p>
+                        <p className='mb-2 text-xl lg:text-3xl font-semibold'>{title}</p>
                         <p style={{ color: text_color }}>${price}</p>
                     </div>
 
